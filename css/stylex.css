@@ -1,9 +1,13 @@
 body {
-  padding-top: 60px;
-  padding-bottom: 40px;
+    background-image: url('img/fondo1.png') !important;;
+    background-color: #cccccc;
 }
 .sidebar-nav {
   padding: 9px 0;
+}
+.copy-r{
+  position: relative;
+  margin-left: 500px;
 }
 
 @media (max-width: 980px) {
