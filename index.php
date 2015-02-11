@@ -69,7 +69,14 @@
               hay aquí fueron realizados con fines académicos es el lenguaje
               más utilizado.</p>
             </div><!--/span-->
-            
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce
+ dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
+mollis euismod. Donec sed odio dui. </p>
+              
+            </div><!--/span-->
             <div class="span4">
               <h2>Heading</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce
@@ -127,18 +134,10 @@ if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.t
 fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 </div> 
-</div>          
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+</div>
 
-<footer>
+
+<footer class="pie">
     <center><a href="http://www.000webhost.com/" target="_blank"><img src="img/120x60_powered.gif" alt="Web Hosting" border="0" height="60" width="120"></a></center>
     <br>
     <center><p>© Multibazar LRD C.A.</p></center>
