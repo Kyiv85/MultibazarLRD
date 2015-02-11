@@ -1,15 +1,49 @@
 body {
-    background-image: url('img/fondo1.png') !important;;
-    background-color: #cccccc;
+  background-color: #cccccc;
+}
+marquee{
+  position: relative;
+  margin-left: -200px;
+  float:left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color:#428BCA;
 }
 .sidebar-nav {
-  padding: 9px 0;
+  padding: 10px 0;
+  width: 220px;
+  float: left;
+  margin-right: 0px;
 }
 .copy-r{
   position: relative;
   margin-left: 500px;
 }
-
+.nav-proy{
+  margin-left: 10px;
+  font-size: 18px;
+  text-decoration: black;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.container-principal{
+  margin-left: 0px;
+  float:left;
+  margin-top: -480px;
+  margin-left: 220px;
+}
+.container-principal h1{
+  font-size: 60px;
+  }
+  .row-fluid .span4 img{
+    margin-bottom: 5px;
+  }
+.twitter{
+  width: 300px;
+  float: right;
+  margin-top: -480px;
+  margin-left: 0px;
+}
 @media (max-width: 980px) {
   /* Enable use of floated navbar text */
   .navbar-text.pull-right {

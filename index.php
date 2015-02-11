@@ -9,75 +9,74 @@
   <meta name="author" content="">
 
   <!-- CSS -->
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/bootstrap-responsive.css" rel="stylesheet">
-  <link href="css/stylex.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/stylex.css" rel="stylesheet">
 
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-  <script src="js/html5shiv.js"></script>
-  <![endif]-->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
-  <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://multibazar-lrd.hostzi.com/ico/apple-touch-icon-144-precomposed.png">
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://multibazar-lrd.hostzi.com/ico/apple-touch-icon-144-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://multibazar-lrd.hostzi.com/ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://multibazar-lrd.hostzi.com/ico/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="http://multibazar-lrd.hostzi.com/ico/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="http://multibazar-lrd.hostzi.com/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://multibazar-lrd.hostzi.com/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://multibazar-lrd.hostzi.com/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="http://multibazar-lrd.hostzi.com/ico/favicon.png">
 </head>
 <body>
-  <div class="container-fluid">
+<div class="container-fluid">
     <div class="row-fluid">
       <div class="span2">
-        <div class="well sidebar-nav">
-          <ul class="nav nav-list">
-            <li class="nav-header">Proyectos</li>
-            <li class="active"><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
-        </div><!--/.well -->
-      </div><!--/span-->
-      <br> <br>
-    <div class="marquee" id="Texto">
-    <marquee direction="left" scrollamount="10" style="position: relative;left: 240px;" "height:41px"="" height="40" width="500">
-      <font size="6"><b>Bienvenidos</b></font>
-    </marquee>
-    </div>
-<br><br>
-<center>
-    <a href="http://multibazar-lrd.hostzi.com/Banesco/index.php">Banesco</a>&nbsp;&nbsp;&nbsp;
-    <a href="http://multibazar-lrd.hostzi.com/MusicBox/index.html">MusicBox</a>&nbsp;&nbsp;&nbsp;
-    <a href="http://multibazar-lrd.hostzi.com/ReporteAntenas/index.php">ReporteAntenas</a>&nbsp;&nbsp;&nbsp;
-    <a href="http://multibazar-lrd.hostzi.com/Mensajeria/index.html">Mensajeria</a>&nbsp;&nbsp;&nbsp;
-    <a href="http://multibazar-lrd.hostzi.com/ControlAsistencia/index.html">Control Asistencia</a>&nbsp;&nbsp;&nbsp;
-</center>
-<br> <br>
-
-        <div class="span8">
-          <div class="hero-unit">
-            <h1>Hello, world!</h1>
-            <p>This is a template for a simple marketing or
-informational website. It includes a large callout called the hero unit
-and three supporting pieces of content. Use it as a starting point to
-create something more unique.</p>
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+                <li class="nav-proy">Proyectos personales</li>
+                <li class="active"><a href="#">Proyecto</a></li>
+                <li><a href="#">Proyecto 1</a></li>
+                <li><a href="#">Proyecto 2</a></li>
+                <li><a href="#">Proyecto 3</a></li>
+                <li><a href="#">Proyecto 4</a></li>
+                <li><a href="#">Proyecto 5</a></li>
+                <li><a href="#">Proyecto 6</a></li>
+                <li><a href="#">Proyecto 7</a></li>
+                <li><a href="#">Proyecto 8</a></li>
+                <li><a href="#">Proyecto</a></li>
+              </ul>
           </div>
+        </div>
+    </div>
+
+<div class="span9">
+<div class="container-principal">
+  <div class="hero-unit">
+    <h1>Repositorio de pruebas</h1>
+      <p>Este es un repositorio de proyectos personales de Daniel Delgado para ser reutilizados, y/o compartidos. 
+      Esto no es una página oficial, solo experimental con fines académicos</p>
+  </div>
+        <div class="span6">    
+          <div class="marquee" id="Texto">
+          <marquee direction="left" scrollamount="10" style="position: relative;left: 240px;" "height:41px"="" height="40" width="500">
+            <font size="6"><b>Bienvenidos</b></font>
+          </marquee>
+          </div>
+        </div>
           <div class="row-fluid">
             <div class="span4">
+              <img src="img/php.jpg" width="180" height="100">
+              <p>Soy entusiasta del php y fue mi primer lenguaje web y 
+              orientado a objetos. Dado que muchos de los proyectos que
+              hay aquí fueron realizados con fines académicos es el lenguaje
+              más utilizado.</p>
+            </div><!--/span-->
+            
+            <div class="span4">
               <h2>Heading</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce
  dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
 fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
 mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
+              
             </div><!--/span-->
             <div class="span4">
               <h2>Heading</h2>
@@ -85,15 +84,7 @@ mollis euismod. Donec sed odio dui. </p>
  dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
 fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
 mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce
- dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
+              
             </div><!--/span-->
           </div><!--/row-->
           <div class="row-fluid">
@@ -103,7 +94,7 @@ mollis euismod. Donec sed odio dui. </p>
  dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
 fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
 mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
+              
             </div><!--/span-->
             <div class="span4">
               <h2>Heading</h2>
@@ -111,7 +102,7 @@ mollis euismod. Donec sed odio dui. </p>
  dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
 fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
 mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
+              
             </div><!--/span-->
             <div class="span4">
               <h2>Heading</h2>
@@ -119,20 +110,41 @@ mollis euismod. Donec sed odio dui. </p>
  dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
 fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
 mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
+              
             </div><!--/span-->
           </div><!--/row-->
         </div><!--/span-->
-      </div><!--/row-->
+</div><!--/row-->
+</div>
+</div>
 
-      <hr>
+<div class="twitter">
+<a class="twitter-timeline" href="https://twitter.com/Kyiv85" data-widget-id="565351024136032256">Tweets por el @Kyiv85.</a>
+<script>
+!function(d,s,id){
+var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</div> 
+</div>          
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
 <footer>
-    <center><a href="http://www.000webhost.com/" target="_blank"><img src="MultibazarLRD_files/120x60_powered.gif" alt="Web Hosting" border="0" height="60" width="120"></a></center>
-    <p>© Multibazar LRD C.A.</p>
+    <center><a href="http://www.000webhost.com/" target="_blank"><img src="img/120x60_powered.gif" alt="Web Hosting" border="0" height="60" width="120"></a></center>
+    <br>
+    <center><p>© Multibazar LRD C.A.</p></center>
 </footer>
+</div><!--/.fluid-container-->
 
-    </div><!--/.fluid-container-->
 
     <!-- Le javascript
     ================================================== -->
